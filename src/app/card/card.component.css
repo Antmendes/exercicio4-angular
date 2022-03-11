@@ -12,13 +12,13 @@
 }
 .subGeral{
     font-size: 65px;
-    color: rgb(90, 89, 89);
+    
 }
 .tituloGeral{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: gray;
+    
 }
 .contGeral{
     font-size: large;
@@ -41,21 +41,19 @@ p{
     border-bottom: 1px solid rgb(235, 228, 228);
     width: 247.7px;
     text-align: center;
-    color: rgb(90, 89, 89);
+    
 }
 button{
     width: 247.7px;
     height: 50px;
     margin-bottom: 20px;
     border-radius: 10px;
-    color: #7159c1;
+    
    
 }
 #cardMid{
     background-color: #7159c1;
+    color: white
     
 }
 
-.meio{
-    color: white;
-}

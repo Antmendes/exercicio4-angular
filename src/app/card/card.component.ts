@@ -6,7 +6,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent  {
-  
  @Input()
  id: string =''
 
@@ -27,9 +26,6 @@ conteudo3: string = ''
 
 @Input()
 btn: string = 'LEARN MORE'
-
-@Input()
-backgroundColor: string = ''
 
 @Output()
 btnclick: EventEmitter<any> = new EventEmitter<any>()
