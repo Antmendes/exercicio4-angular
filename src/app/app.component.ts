@@ -13,6 +13,6 @@ export class AppComponent {
   constructor(private _snackBar: MatSnackBar){}
 
   mostrar(): void {
-    this._snackBar.open('Pacote Comprado!')
+    this._snackBar.open('Pacote Comprado!' , 'ok')
   }
 }
